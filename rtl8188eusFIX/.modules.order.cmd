@@ -1,1 +1,1 @@
-cmd_/home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/modules.order := {   echo /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/8188eu.ko; :; } | awk '!x[$$0]++' - > /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/modules.order
+cmd_/home/hades/rtl8188eus/rtl8188eusFIX/modules.order := {   echo /home/hades/rtl8188eus/rtl8188eusFIX/8188eu.ko; :; } | awk '!x[$$0]++' - > /home/hades/rtl8188eus/rtl8188eusFIX/modules.order

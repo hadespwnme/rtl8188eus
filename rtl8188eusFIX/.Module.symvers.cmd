@@ -1,1 +1,1 @@
-cmd_/home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/Module.symvers := sed 's/\.ko$$/\.o/' /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/modules.order | scripts/mod/modpost -m   -o /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/Module.symvers -e -i Module.symvers   -T -
+cmd_/home/hades/rtl8188eus/rtl8188eusFIX/Module.symvers := sed 's/\.ko$$/\.o/' /home/hades/rtl8188eus/rtl8188eusFIX/modules.order | scripts/mod/modpost -m   -o /home/hades/rtl8188eus/rtl8188eusFIX/Module.symvers -e -i Module.symvers   -T -

@@ -1,1 +1,1 @@
-cmd_/home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/8188eu.ko := ld -r -m elf_x86_64 --build-id=sha1  -T arch/x86/module.lds -o /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/8188eu.ko /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/8188eu.o /home/user/Desktop/rtl8188eus-fix/rtl8188eusKL/8188eu.mod.o;  true
+cmd_/home/hades/rtl8188eus/rtl8188eusFIX/8188eu.ko := ld -r -m elf_x86_64 --build-id=sha1  -T arch/x86/module.lds -o /home/hades/rtl8188eus/rtl8188eusFIX/8188eu.ko /home/hades/rtl8188eus/rtl8188eusFIX/8188eu.o /home/hades/rtl8188eus/rtl8188eusFIX/8188eu.mod.o;  true

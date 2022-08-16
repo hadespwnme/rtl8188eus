@@ -81,6 +81,9 @@ def install_parrot():
     os.system("cd rtl8188eusFIX && sudo python3 command-for-parrotos.py")
     os.system("sudo make && sudo make install && sudo modprobe 8188eu")
 
+def install_arch():
+    print(f"{RED}Installing package from AUR")
+    os.system("sudo yay -Syu 8188eu-aircrack-dkms-git")
 
 def menu():
     sistem = platform.uname()
@@ -113,12 +116,15 @@ def menu():
 
                            {yellow}1) Install on kali linux
                            {yellow}2) Install on Parrot Os
+                           {yellow}3) Install on Arch Linux
     ''')
     menu = input(f"{GREEN}hades> ")
     if menu == "1":
         install_kali()
     elif menu == "2":
         install_parrot()
+    elif menu == "3":
+        install_arch()
     else:
         menu()
 

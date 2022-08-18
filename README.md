@@ -1,5 +1,5 @@
 # rtl8188eus
-Tool for installing driver rtl818eus on parrot os and kali linux
+Tool for installing driver rtl818eus on parrot os, kali linux and arch linux
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
